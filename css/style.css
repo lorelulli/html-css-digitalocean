@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+#logo{
+    height: 30px;
+    margin: 10px;
+    color: blue;
+}
+
+.nav button{
+    margin: 10px;
+}
+
+.icon{
+    height: 20px;
+}
+
+.lista ul li{
+    list-style: none;
+    border-left: solid 2px black;
+}
+
+.riga{
+
+    border-bottom: solid black 2px;
+}
+
+.riga p,a{
+    display: inline;
+
+}
+
+.fine svg,p,a{
+    display: inline;
+}
+
+.fine a{
+    height: 20px;
+}
