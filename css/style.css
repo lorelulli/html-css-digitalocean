@@ -314,26 +314,57 @@ margin: 0 auto;
     margin-bottom: 120px;
 }
 
+.md--service{
+    width: 50%;
+    margin: 0 auto;
+}
+
 .md--service h2{
     margin: 120px 0 50px;
     font-size: 36px;
     color: white;
+
 }
 
 .md--riga p{
-    padding: 11px 10px 10px;
+    padding: 11px 10px 10px 40px;
 
 }
 
 .md--riga a{
     padding-left: 100px;
-
+    color: #00d7d2;
     padding-bottom: 10px;
     float: right;
 }
 
 .md--riga{
-    width: 80%;
+
     margin: 0 auto;
-    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    border-bottom: 0.1px solid #818DA7;
+}
+
+.md--darkblu{
+    background-color: #031B4E;
+}
+
+.md--riga h4{
+    font-size: 14px;
+    font-weight: 900;
+    color: white;
+    display: inline;
+    padding: 11px 10px 10px;
+}
+
+.md--riga p{
+    font-size: 14px;
+    font-weight: 100;
+    color: #818DA7;
+}
+
+#md--nobor{
+    border-bottom: none;
+    margin-bottom: 120px;
 }
