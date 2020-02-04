@@ -57,10 +57,6 @@ body{
     height: 20px;
 }
 
-.md--lista ul li{
-    list-style: none;
-    border-left: solid 2px black;
-}
 
 .riga{
 
@@ -206,14 +202,55 @@ margin: 0 auto;
 }
 
 .md--dep{
-    width:80%;
+    width:90%;
     margin: 0 auto;
     margin-bottom: 64px;
 
 }
 
-.md--lista{
-    width: 50%;
-    margin: 0 auto;
+.md--lista ul li{
+    font-size: 16px;
+    padding: 17px 10px 17px 30px;
+    color: rgba(3,27,78,.5);
+    list-style: none;
+    border-left: solid 2px rgba(3,27,78,.5) ;
 
+}
+
+.md--white{
+    margin: 0 200px;
+}
+
+#dep{
+    border-left: 2px solid #0049FF;
+    color: #031b4e;
+}
+
+.scheda-due h3{
+    margin-top: 8px;
+    margin-bottom: 16px;
+    font-size: 18px;
+    color:#031b4e;
+}
+
+.scheda-uno,.scheda-due p{
+    font-size: 16px;
+    color: rgba(3,27,78,.7);
+
+}
+
+.md--margin{
+    margin-bottom: 100px;
+}
+
+.scheda-uno h3{
+    margin-top: 8px;
+    margin-bottom: 16px;
+    font-size: 18px;
+    color:#031b4e;
+
+}
+
+.scheda-uno svg{
+    margin-top: 50px;
 }
