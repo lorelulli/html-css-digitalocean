@@ -368,3 +368,45 @@ margin: 0 auto;
     border-bottom: none;
     margin-bottom: 120px;
 }
+
+.first-part h2{
+    margin-top: 100px;
+    margin-bottom: 30px;
+    font-size: 36px;
+    color: #031b4e;
+}
+
+.first-part p{
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: rgba(3,27,78,.7);
+}
+
+.first-part{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.second-part{
+    width: 60%;
+    margin: 20px auto 120px;
+}
+
+#md--back-white{
+    background-color: white;
+}
+
+.second-part a{
+    display: block;
+}
+
+.second-part p{
+    display: block;
+    color:rgba(3,27,78,7);
+    font-size: 24px;
+}
+.second-part img{
+    height: 24px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
