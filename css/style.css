@@ -81,6 +81,7 @@ body{
 .md--form{
 
     margin-top: 80px;
+    margin-bottom: 80px;
 
 
 }
@@ -89,12 +90,25 @@ body{
     background-color: white;
     width: 80%;
     border-radius: 5px;
-    margin-right: 0;
+
+    float: right;
 }
 
 
 .jumbotron{
     background-color: #0049FF;
+}
+
+.jumbotron h1{
+    color: white;
+    font-size: 62px;
+    font-weight: 900;
+}
+
+.jumbotron p{
+    color: white;
+    font-size: 24px;
+    font-weight: 300;
 }
 
 #pulsante{
@@ -106,8 +120,37 @@ body{
     border-radius: 5px;
 
 }
-.md--form form{
-    padding: 10px;
-    margin-right: 0;
 
+.md--form form{
+    padding: 32px;
+}
+
+.sign-up{
+    margin-bottom: 50px;
+}
+
+.ms--deploy{
+    color: #031b4e;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.md--sign{
+    color: #5b6987;
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.google button{
+    color: #031b4e;
+    background: #f2f8ff;
+    border: 1px solid rgba(0,105,255,.2);
+    padding: 10px 50px;
+}
+
+.github button{
+    color: #031b4e;
+    background: #f2f8ff;
+    border: 1px solid rgba(0,105,255,.2);
+    padding: 10px 50px;
 }
