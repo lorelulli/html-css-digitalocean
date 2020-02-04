@@ -68,11 +68,11 @@ body{
 
 }
 
-.fine svg,p,a{
+.md--fine svg,p,a{
     display: inline;
 }
 
-.fine a{
+.md--fine a{
     height: 20px;
 }
 
@@ -253,4 +253,87 @@ margin: 0 auto;
 
 .scheda-uno svg{
     margin-top: 50px;
+}
+
+.md--designed h2{
+    font-size: 36px;
+    color: #031b4e;
+    margin-bottom: 16px;
+    font-weight: 900;
+}
+
+.md--designed p{
+    font-size: 20px;
+    color: rgba(3,27,78,.7);
+    display: block;
+    margin-bottom: 65px;
+}
+
+#kuber{
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+.md--schede{
+    margin: 0 auto;
+    width: 80%;
+    margin-bottom: 120px;
+}
+
+.md--titolo h2{
+    margin-top: 120px;
+    margin-bottom: 65px;
+    font-size: 36px;
+    color: #031b4e;
+    font-weight: 900;
+}
+
+.scheda h3{
+    font-size: 18px;
+    padding-bottom: 16px;
+    color: #031b4e;
+    font-weight: 900;
+}
+
+.scheda p{
+    color: rgba(3,27,78,.7);
+    font-size: 16px;
+    padding-bottom: 16px;
+
+
+}
+
+.scheda a{
+    display: block;
+    margin-top: 16px;
+    color: #0049FF;
+    font-weight: 900;
+}
+
+.md--bianco{
+    margin-bottom: 120px;
+}
+
+.md--service h2{
+    margin: 120px 0 50px;
+    font-size: 36px;
+    color: white;
+}
+
+.md--riga p{
+    padding: 11px 10px 10px;
+
+}
+
+.md--riga a{
+    padding-left: 100px;
+
+    padding-bottom: 10px;
+    float: right;
+}
+
+.md--riga{
+    width: 80%;
+    margin: 0 auto;
+    border-bottom: 2px solid black;
 }
