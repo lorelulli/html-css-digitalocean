@@ -97,6 +97,14 @@ body{
     float: right;
 }
 
+@media screen and ( max-width: 768px ){
+
+    .backgroundwhite{
+        width: 100%;
+        float: none;
+    }
+
+}
 
 .jumbotron{
     background-color: #0049FF;
@@ -182,7 +190,7 @@ margin: 0 auto;
 #md--innovative{
     color: #A1AABF;
     font-size: 16px;
-    margin-top:
+    margin-top: 50px;
 }
 
 .md--grey{
@@ -220,6 +228,15 @@ margin: 0 auto;
 .md--white{
     margin: 0 200px;
 }
+
+@media screen and (max-width: 768px){
+
+    .md--white{
+        margin: 0 ;
+    }
+}
+
+
 
 #dep{
     border-left: 2px solid #0049FF;
@@ -260,6 +277,7 @@ margin: 0 auto;
     color: #031b4e;
     margin-bottom: 16px;
     font-weight: 900;
+    margin-top: 100px;
 }
 
 .md--designed p{
@@ -468,4 +486,12 @@ margin: 0 auto;
 
 .md--fin svg{
     line-height: 30px;
+}
+
+@media screen and (max-width: 768px){
+
+    .row{
+        margin-right: 0;
+        margin-left: 0;
+    }
 }
