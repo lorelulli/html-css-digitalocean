@@ -78,7 +78,8 @@ body{
 
 .blu{
     background-color: #0049FF;
-
+    background-image: url("https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg");
+    background-size: cover;
 }
 
 .md--form{
@@ -107,8 +108,10 @@ body{
 }
 
 .jumbotron{
-    background-color: #0049FF;
+    background-color: transparent;
 }
+
+
 
 .jumbotron h1{
     color: white;
@@ -366,6 +369,7 @@ margin: 0 auto;
 
 .md--darkblu{
     background-color: #031B4E;
+    background-image: url(https://www.digitalocean.com/assets/media/homepage/data-center-map-20321538.svg);
 }
 
 .md--riga h4{
@@ -494,4 +498,8 @@ margin: 0 auto;
         margin-right: 0;
         margin-left: 0;
     }
+}
+
+.ms--svg svg{
+    height: 40px;
 }
